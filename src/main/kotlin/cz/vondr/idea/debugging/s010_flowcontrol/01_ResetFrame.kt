@@ -1,4 +1,4 @@
-package org.example.cz.vondr.idea.debugging.s01_flowcontrol
+package cz.vondr.idea.debugging.s010_flowcontrol
 
 fun main() {
     ResetFrame().sample()

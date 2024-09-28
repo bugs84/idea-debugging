@@ -1,4 +1,4 @@
-package org.example.cz.vondr.idea.debugging.s01_flowcontrol
+package cz.vondr.idea.debugging.s010_flowcontrol
 
 import kotlin.random.Random
 
@@ -12,12 +12,16 @@ class JumpToLine {
     }
 
     private fun method(): String {
-        // #1 install plugin
-        if (Random.nextInt() != 123456) { // #2 put breakpoint here
-            // #3
+        if (Random.nextInt() != 123456) { // #1 put breakpoint here
             throw Exception("Uups some error")
         }
-        return "Jump to line result"
+        return "Jump to line result" // #2 move execution here
     }
 
+    /**
+     ### To make it work
+     - install plugin [Jump to Line](https://plugins.jetbrains.com/plugin/14877-jump-to-line)
+     - To be able to move execution point. Breakpoint must suspend All threads not just current one.
+     */
+    fun notes() {}
 }

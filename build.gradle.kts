@@ -17,5 +17,25 @@ tasks.test {
     useJUnitPlatform()
 }
 kotlin {
-    jvmToolchain(17)
+    jvmToolchain(21)
+}
+
+// Configure the source sets to include both Java and Kotlin files in the same directory
+sourceSets {
+    main {
+        java {
+            srcDirs("src/main/kotlin")
+        }
+//        kotlin {
+//            srcDirs("src/main/kotlin")
+//        }
+    }
+    test {
+        java {
+            srcDirs("src/test/kotlin")
+        }
+//        kotlin {
+//            srcDirs("src/test/kotlin")
+//        }
+    }
 }
