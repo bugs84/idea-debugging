@@ -8,14 +8,14 @@ fun main() {
 
 class JumpToLine {
     fun sample() {
-        println(method())
+        println(failingCode())
     }
 
-    private fun method(): String {
+    private fun failingCode(): String {
         if (Random.nextInt() != 123456) { // #1 put breakpoint here
-            throw Exception("Uups some error")
+            throw Exception("Oops some error")
         }
-        return "Jump to line result" // #2 move execution here
+        return "Failing code result" // #2 move execution here
     }
 
     /**
