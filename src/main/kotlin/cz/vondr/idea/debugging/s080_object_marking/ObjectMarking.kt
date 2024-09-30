@@ -2,8 +2,6 @@ package cz.vondr.idea.debugging.s080_object_marking
 
 import java.lang.Thread.sleep
 import kotlin.random.Random
-import kotlin.time.Duration.Companion.days
-import kotlin.time.toJavaDuration
 
 fun main() {
     // #1 Start 20 threads each sleep random time and increment counter by time it slept
@@ -21,7 +19,6 @@ fun main() {
             }
         }.start()
     }
-    sleep(1.days.toJavaDuration())
 }
 
 class Counter(var value: Long = 0) {

@@ -14,7 +14,6 @@ fun main() {
             }
         }.start()
     }
-//    sleep(1.days.toJavaDuration())
 }
 
 data class Counter(var value: Long = 0) {
