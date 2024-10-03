@@ -7,9 +7,9 @@ fun main() {
 // RESET/DROP frame
 class ResetFrame {
     fun sample() {
-        println("Drop frame start")
+        println("Reset frame start")
         // #1 Place breakpoint Here
         val i = 0 // #2 Once it hit breakpoint
-        println("Drop frame end")
+        println("Reset frame end")
     }
 }

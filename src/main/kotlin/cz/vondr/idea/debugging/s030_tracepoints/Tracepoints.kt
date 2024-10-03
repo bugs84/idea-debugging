@@ -20,7 +20,8 @@ fun addTwo() {
 //    - for one/two click we get nice log of places where field counter was modified
 
 /**
- * - I can add println to code at runtime **without recompilation**
+ * - I can use Tracepoints **instead of printlns**
+ * - I can add Tracepoints to code during debugging  **without recompilation+rerun**
  * - Debugging printlns are part of debugger and not temporal change in code
  * - I cannot **commit debugging printlns by accident**.
  */

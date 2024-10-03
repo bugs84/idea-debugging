@@ -16,9 +16,9 @@ class FieldWatchpoint {
 
         // #3 property modification
         myField = 10
-
+        println()
         myField = 20
-
+        println()
         myField = 30
     }
 

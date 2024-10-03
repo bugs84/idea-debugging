@@ -51,8 +51,9 @@ class AsyncExample {
  *  ### We can create custom Async stacktraces
  *  Using annotations from **org.jetbrains.annotations**
  *
- *  @Async.Schedule - Capture stacktrace and object is used as key
- *  @Async.Execute - Method where one of the previously stored stack traces is attached to the current stack
+ *  **@Async.Schedule** - Capture stacktrace and object is used as key
+ *  **@Async.Execute** - Method where one of the previously stored stack traces is attached to the current stack
+ *
  */
 fun note() {}
 

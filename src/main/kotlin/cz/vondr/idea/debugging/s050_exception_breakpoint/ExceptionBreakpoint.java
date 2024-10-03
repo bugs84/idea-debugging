@@ -1,6 +1,10 @@
 package cz.vondr.idea.debugging.s050_exception_breakpoint;
 
-public class ExceptionBreakpoint { //TODO finish make it work
+// Idea is, that its often can be good idea to enable Exception Breakpoint
+// Then we cannot miss any exception
+// BUT we have to properly setup filter
+
+public class ExceptionBreakpoint {
 
     public static void main(String[] args) {
         startThreadThrowingNumberFormatExceptions();
