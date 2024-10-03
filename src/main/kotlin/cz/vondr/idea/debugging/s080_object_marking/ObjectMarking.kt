@@ -12,7 +12,7 @@ fun main() {
             val counter = Counter() // #3 place breakpoint here and create "New Watch" "Thread.currentThread()"
             // #4 !!! right click on watch variable and "Mark Object..." name it "markedThread"
             // This will create Runtime Static variable and store result of expression in it.
-            repeat(1000) {
+            while (true) {
                 val sleepTime = Random.nextLong(1000)
                 sleep(sleepTime)
                 counter.increment(sleepTime)

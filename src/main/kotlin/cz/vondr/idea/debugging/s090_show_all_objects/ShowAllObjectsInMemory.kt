@@ -7,7 +7,7 @@ fun main() {
     repeat(20) {
         Thread {
             val counter = Counter()
-            repeat(1000) {
+            while (true) {
                 val sleepTime = Random.nextLong(1000)
                 sleep(sleepTime)
                 counter.increment(sleepTime)

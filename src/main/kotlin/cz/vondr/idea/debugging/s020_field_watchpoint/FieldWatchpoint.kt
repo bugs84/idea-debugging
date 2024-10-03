@@ -16,6 +16,10 @@ class FieldWatchpoint {
 
         // #3 property modification
         myField = 10
+
+        myField = 20
+
+        myField = 30
     }
 
 
