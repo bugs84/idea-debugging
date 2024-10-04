@@ -1,6 +1,6 @@
 # IntelliJ IDEA advanced debugging features
 
-jOpenSpace | 5.10.2024 | Vondr = Jan Vondrouš
+jOpenSpace | 5.10.2024 | Vondr = Jan Vondrouš | Eleveo
 
 ## This repository can be found here
 
@@ -19,4 +19,4 @@ I recently checked debugger features, and I was surprised how many I didn't know
 
 ## Note
 
-Examples are in Kotlin, but they are very simple. And everything works in Java too.
+Examples are in **Kotlin**, but they are very simple. And everything works in **Java** too.
