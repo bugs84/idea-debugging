@@ -1,4 +1,4 @@
-# Debugging Intellij IDEA
+# IntelliJ IDEA debugger
 
 Repository used to demonstrate some advanced features of debugger.
 
