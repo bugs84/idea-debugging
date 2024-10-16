@@ -10,7 +10,7 @@ repositories {
 }
 
 dependencies {
-    implementation("org.jetbrains:annotations:25.0.0")
+    compileOnly("org.jetbrains:annotations:25.0.0")
     testImplementation(kotlin("test"))
 }
 

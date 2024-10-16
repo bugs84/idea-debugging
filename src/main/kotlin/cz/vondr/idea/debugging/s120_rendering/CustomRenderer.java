@@ -44,3 +44,12 @@ class PersC {
         this.age = age;
     }
 }
+
+
+/**
+ * Annotation @Debug.Renderer is one, that doesn't work in Kotlin yet.<br>
+ * https://youtrack.jetbrains.com/issue/IDEA-335327/Support-Debug.Renderer-annotation-for-Kotlin-classes
+ */
+class Note {
+}
+
